@@ -1,12 +1,8 @@
-game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
-    repeat task.wait() until game:IsLoaded()
-    queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_auto_lobby.lua'))()")
-end)
-
+if not game:IsLoaded() then
+   game.Loaded:Wait();
+end
 wait(5)
-
 local cash = game.Players.LocalPlayer.leaderstats.Cash
-
 local function updatemoney ()
 	local cash = game.Players.LocalPlayer.leaderstats.Cash
 end
