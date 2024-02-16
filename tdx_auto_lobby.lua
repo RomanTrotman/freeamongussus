@@ -1,4 +1,9 @@
-while wait(5) do
+game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
+    repeat task.wait() until game:IsLoaded()
+    queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_match.lua'))()")
+end)
+
+while wait(1) do
 	if game.Workspace.APCs:FindFirstChild("1").mapdisplay.screen.displayscreen.map.Text == "SECRET FOREST" then
 		workspace.Not_WlLLEM233.HumanoidRootPart.CFrame = workspace.APCs["1"].APC.Detector.CFrame
 	elseif game.Workspace.APCs:FindFirstChild("2").mapdisplay.screen.displayscreen.map.Text == "SECRET FOREST" then
