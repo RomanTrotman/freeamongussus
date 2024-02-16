@@ -3,7 +3,7 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_auto_lobby.lua'))()")
 end)
 
-wait(2)
+wait(5)
 
 local cash = game.Players.LocalPlayer.leaderstats.Cash
 
