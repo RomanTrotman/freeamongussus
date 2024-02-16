@@ -2,7 +2,7 @@ if not game:IsLoaded() then
    game.Loaded:Wait();
 end
 
-queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_Launcher.lua'))()")
 
 if game.PlaceId == 9503261072 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_auto_lobby.lua", true))()
