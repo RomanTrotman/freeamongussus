@@ -3,7 +3,7 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/RomanTrotman/freeamongussus/main/tdx_match.lua'))()")
 end)
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-wait(2)
+wait(5)
 while wait(0.5) do
 	if game.Workspace.APCs:FindFirstChild("1").mapdisplay.screen.displayscreen.map.Text == "SECRET FOREST" then
 		pl.CFrame = workspace.APCs["1"].APC.Detector.CFrame
