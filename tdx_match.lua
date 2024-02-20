@@ -557,6 +557,72 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+repeat checker() until cash.Value >= 775
+local args = {
+    [1] = 166534.56443149998,
+    [2] = "Patrol Boat",
+    [3] = Vector3.new(-7.499546527862549, 31.59375, -24.535320281982422),
+    [4] = 0
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("PlaceTower"):InvokeServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 500
+local args = {
+	[1] = 9,
+	[2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 1100
+local args = {
+	[1] = 9,
+	[2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 2150
+local args = {
+	[1] = 9,
+	[2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 5850
+local args = {
+	[1] = 9,
+	[2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 21500
+local args = {
+	[1] = 9,
+	[2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 650
+local args = {
+	[1] = 9,
+	[2] = 2
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
+repeat checker() until cash.Value >= 950
+local args = {
+	[1] = 9,
+	[2] = 2
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(1)
 repeat checker() until game:GetService("Players").LocalPlayer.PlayerGui.Interface.GameOverScreen.Visible == true
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RequestTeleportToLobby"):FireServer()
 
