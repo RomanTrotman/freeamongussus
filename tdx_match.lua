@@ -670,6 +670,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 300
 local args = {
 	[1] = 10,
@@ -677,6 +678,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 3250
 local args = {
 	[1] = 10,
@@ -684,6 +686,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 5250
 local args = {
 	[1] = 10,
@@ -691,6 +694,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 12750
 local args = {
 	[1] = 10,
@@ -698,6 +702,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 700
 local args = {
 	[1] = 10,
@@ -705,6 +710,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 1200
 local args = {
 	[1] = 10,
@@ -712,6 +718,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 200
 local args = {
 	[1] = 11,
@@ -719,6 +726,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 300
 local args = {
 	[1] = 11,
@@ -726,6 +734,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 3250
 local args = {
 	[1] = 11,
@@ -733,6 +742,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 5250
 local args = {
 	[1] = 11,
@@ -740,6 +750,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 12750
 local args = {
 	[1] = 11,
@@ -747,12 +758,13 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 700
 local args = {
 	[1] = 11,
 	[2] = 1
 }
-
+wait(0.25)
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
 repeat checker() until cash.Value >= 1200
 local args = {
@@ -761,6 +773,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 200
 local args = {
 	[1] = 12,
@@ -768,6 +781,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 300
 local args = {
 	[1] = 12,
@@ -775,6 +789,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 3250
 local args = {
 	[1] = 12,
@@ -782,6 +797,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 5250
 local args = {
 	[1] = 12,
@@ -789,6 +805,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 12750
 local args = {
 	[1] = 12,
@@ -796,6 +813,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 700
 local args = {
 	[1] = 12,
@@ -803,6 +821,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 1200
 local args = {
 	[1] = 12,
@@ -810,6 +829,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 200
 local args = {
 	[1] = 13,
@@ -817,6 +837,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 300
 local args = {
 	[1] = 13,
@@ -824,6 +845,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 3250
 local args = {
 	[1] = 13,
@@ -831,6 +853,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 5250
 local args = {
 	[1] = 13,
@@ -838,6 +861,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 12750
 local args = {
 	[1] = 13,
@@ -845,6 +869,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 700
 local args = {
 	[1] = 13,
@@ -852,6 +877,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until cash.Value >= 1200
 local args = {
 	[1] = 13,
@@ -859,6 +885,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
+wait(0.25)
 repeat checker() until game:GetService("Players").LocalPlayer.PlayerGui.Interface.GameOverScreen.Visible == true
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RequestTeleportToLobby"):FireServer()
 
