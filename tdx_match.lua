@@ -12,6 +12,12 @@ local function checker ()
 	wait()
 end
 
+local function leavegame ()
+	repeat checker() until game:GetService("Players").LocalPlayer.PlayerGui.Interface.GameOverScreen.Visible == true
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RequestTeleportToLobby"):FireServer()
+end
+
+task.spawn(leavegame)
 
 local args = {
 	[1] = "Easy"
@@ -885,9 +891,7 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TowerUpgradeRequest"):FireServer(unpack(args))
-wait(0.25)
-repeat checker() until game:GetService("Players").LocalPlayer.PlayerGui.Interface.GameOverScreen.Visible == true
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RequestTeleportToLobby"):FireServer()
+
 
 
 
